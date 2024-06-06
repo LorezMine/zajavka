@@ -1,0 +1,54 @@
+body {
+  background: #8a2387;
+  background: -webkit-linear-gradient(142deg, #8a2387 0%, #e94057 50%, #f27121 100%);
+  background: linear-gradient(142deg, #8a2387 0%, #e94057 50%, #f27121 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+iframe {
+  position: relative;
+  left:20%;
+}
+
+.bttn1 {
+  border: 2px solid black;
+  border-radius: 25px;
+  position: fixed;
+  left:25%;
+  top:50%;
+  width: 50%;
+  height: 25%;
+  font-size: 200%;
+  color:white;
+  background-color: blue;
+}
+
+.bttn {
+  border: 2px solid black;
+  border-radius: 25px;
+  position: fixed;
+  left:25%;
+  top:20%;
+  width: 50%;
+  height: 25%;
+  font-size: 200%;
+  color:white;
+  background-color: blue;
+} 
+.bttn:hover {
+  animation-name: button;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.bttn1:hover {
+  animation-name: button;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes button {
+  from {}
+  to {-webkit-box-shadow: inset 3px 2px 6px 32px #c4c4c4;
+    -moz-box-shadow: inset 3px 2px 6px 32px #c4c4c4;
+    box-shadow: inset 3px 2px 6px 32px #c4c4c4;}
+}
