@@ -52,3 +52,11 @@ iframe {
     -moz-box-shadow: inset 3px 2px 6px 32px #c4c4c4;
     box-shadow: inset 3px 2px 6px 32px #c4c4c4;}
 }
+.h11 {
+  text-align: center;
+  color: white;
+}
+h2 {
+  text-align: center;
+  color: white;
+}
